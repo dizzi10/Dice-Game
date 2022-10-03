@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DiceGame</name>
+    </assembly>
+    <members>
+        <member name="T:DiceGame.MainPage">
+            <summary>
+            Main Page of the Dice Game, shows image of rolled die and roll counter
+            </summary>
+        </member>
+        <member name="M:DiceGame.MainPage.ConfigureSound">
+            <summary>
+            Sets up plugin to support audio play back
+            </summary>
+        </member>
+        <member name="M:DiceGame.MainPage.RollDice(System.Object,System.EventArgs)">
+            <summary>
+            Called whenever roll button clicked or device shaked
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:DiceGame.MainPage.CheckShaking(System.Object,System.EventArgs)">
+            <summary>
+            Event handler used to make sure device is still being shaked
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:DiceGame.MainPage.BlinkDieCountFlashlight">
+            <summary>
+            Blinks flashlight based on number of total dice rolls
+            </summary>
+        </member>
+    </members>
+</doc>
